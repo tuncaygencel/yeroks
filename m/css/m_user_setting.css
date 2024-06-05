@@ -1,0 +1,297 @@
+body{
+margin:0;
+padding:0;
+text-align:center;
+overflow-y:scroll;
+background-color:rgb(255,255,255);
+}
+
+#banner{
+width: 100%;
+    height: 30px;
+    background-color: rgb(255, 255, 255);
+    z-index: 99999;
+    box-shadow: 0px 1px 2px #5F5F5F;
+    padding-bottom: 3px;
+    padding-top: 8px;
+    position: fixed;
+}
+.b_c{
+    width: 304px;
+    margin: auto;
+    text-align: left;
+}
+.logo_y{
+float:left;
+display:inine-block;
+}
+.user_banner{
+width:200px;
+height:auto;
+float:right;
+margin-top: 10px;
+}
+a{
+text-decoration:none;
+}
+#user_name{
+float:left;
+width:170px;
+display:inline-block;
+}
+#buttons{
+position: relative;
+    width: 170px;
+    float: right;
+    background-color: white;
+    box-shadow: 0px 3px 4px #cacaca;
+    margin-right: -32px;
+    margin-top: 2px;
+    display: none;
+}
+#button{
+padding: 8px;
+    font-family: arial;
+    color: rgb(27, 98, 168);
+    font-size: 14px;
+    text-align: center;
+    font-weight: bold;
+    border-bottom: 1px solid #f0f0f0;
+    cursor: pointer;
+    width: 152px;
+    display: inline-block;
+    text-decoration: none;
+}
+#set_button{
+    float: right;
+    color: black;
+    font-size: 15px;
+    font-family: arial;
+	font-weight:bold;
+}
+#slide_down, #slide_down1 {
+    background: url('../../img_files/slide_down1.png');
+    background-size: 16px;
+    background-position: center;
+    height: 21px;
+    width: 18px;
+    background-repeat: no-repeat;
+    float: right;
+    margin-top: 9px;
+    margin-right: 5px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+
+#content {
+    display: inline-block;
+    width: 100%;
+	margin-top: 50px;
+}
+
+#c_center {
+    margin: 30px auto;
+    width: 310px;
+}
+
+#option_area{
+margin: auto;
+    display: inline-block;
+}
+
+#option_result{
+font-size: 18px;
+    font-family: arial;
+    color: #545353;
+    padding-top: 10px;
+}
+#option_result b{
+color:red;
+}
+.input_option{
+    width: 288px;
+    font-size: 19px;
+    color: black;
+    padding: 5px;
+    font-family: arial;
+    box-shadow: 0px 1px 3px #cacaca inset;
+    border: 1px solid #c7c7c7;
+
+}
+
+#option_submit{
+	width: 286px;
+    padding: 5px;
+    border: 2px solid #c1c1c1;
+    font-size: 20px;
+    font-family: arial;
+    color: black;
+	cursor:pointer;
+}
+#set_title{
+    font-size: 22px;
+    color: black;
+    font-family: arial;
+    padding-bottom: 10px;
+}
+
+#list_top {
+    width: 280px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+}
+#user_list, #fav_list {
+    display: inline-block;
+    float: left;
+    width: 128px;
+    background-color: white;
+    font-size: 18px;
+    color: rgb(60, 60, 60);
+    border-bottom: 2px solid rgb(60, 60, 60);
+    padding: 6px;
+    font-family: Arial;
+}
+#new_list_object {
+    margin-top: 10px;
+}
+#shopping_list {
+    width: 250px;
+    height: auto;
+    font-size: 20px;
+    padding: 4px;
+    border: 1px solid rgb(232, 225, 225);
+    box-shadow: 0px 1px 1px rgb(187, 187, 187) inset;
+    color: black;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+#new_shopping_yield {
+    width: 250px;
+    height: auto;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+    padding: 4px;
+    border: 1px solid rgb(255, 255, 255);
+    color: rgb(60, 60, 60);
+    font-size: 20px;
+    box-shadow: 0px 1px 1px rgb(174, 174, 174);
+    margin-top: 4px;
+    font-family: Arial;
+}
+#new_shopping_yield img {
+    float: right;
+    right: 0;
+    margin-left: -60px;
+    display: none;
+}
+#fav_result {
+    margin-top: 10px;
+    font-size: 20px;
+    width: 310px;
+    margin-left: auto;
+    margin-right: auto;
+    color: rgb(0, 0, 0);
+    font-family: Arial;
+}
+
+.shopping_y {
+    width: 290px;
+    margin: auto;
+    margin-top: 4px;
+    color: rgb(22, 68, 189);
+    font-family: Arial;
+    font-size: 20px;
+    display: inline-block;
+}
+#fav_y_name, li {
+    width: 270px;
+    float: left;
+    text-align: left;
+}
+#shopping_fav_give_up, #shopping_del_b {
+    background-color: white;
+    box-shadow: 0px 1px 1px rgb(171, 171, 171);
+    display: inline-block;
+    color: red;
+}
+
+#shopping_del_b {
+    float: left;
+    width: 40px;
+}
+#shopping_fav_give_up {
+    float: right;
+    width: 70px;
+}
+
+.fav_y{
+background-color: white;
+    border: 1px solid #d6d6d6;
+    margin-top: 7px;
+    padding: 5px;
+    color: black;
+    box-shadow: 0px 1px 2px #e0e0e0;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

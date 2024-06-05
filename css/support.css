@@ -1,0 +1,147 @@
+body{
+width:100%;
+min-width:1010px;
+height:auto;
+margin:0;
+overflow-y:scroll;
+background-color: rgb(228, 228, 228);
+background-size:100%;
+}
+
+#banner{
+width: 100%;
+  height: auto;
+  background-color: rgb(80, 80, 80);
+  min-height: 85px;
+  box-shadow: 0px 1px 1px rgb(100, 100, 100);
+  line-height: 1.3;
+  border-bottom: 2px solid rgb(255, 165, 0);
+}
+#banner_center{
+width: 1000px;
+  margin: auto;
+  padding-top: 30px;
+}
+#logo{
+  float: left;
+  text-decoration: none;
+}
+#ban_text{
+font-size: 25px;
+  font-family: Arial;
+  color: white;
+  float: left;
+  margin-top: 18px;
+  margin-left: 11px;
+  font-style: normal;
+}
+#noscript{
+width: 800px;
+height: auto;
+display: block;
+margin-top: 20px auto 25px auto; 
+padding: 10px;
+background-color: #22CF00;
+text-align: center;
+font: 20px Arial;
+color: #FFF;
+font-weight: bold;
+text-shadow: 1px 1px 1px #4E4E4E;
+border: 1px solid #BDBDBD;
+box-shadow: 1px 4px 10px #2B2B2B;
+line-height: 1.5;
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px 10px 10px 10px;
+background-image: -webkit-linear-gradient(#00DB0B,#00CC0A);
+background-image: -moz-linear-gradient(#00DB0B,#00CC0A);
+background-image: -ms-linear-gradient(#00DB0B,#00CC0A);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00DB0B',endColorstr='#00CC0A');
+}
+
+#content,.system_info{
+width:100%;
+height:auto;
+margin:0;
+padding:0 0 30px 0;
+display:inline-block;
+}
+
+#content_center{
+width: 1000px;
+  height: auto;
+  margin: 20px auto 50px auto;
+  padding: 10px 10px 30px 10px;
+}
+
+#help_title{
+font-size:30px;
+color:black;
+font-family:Arial;
+text-align:center;
+margin: 20px 0px 20px ;
+}
+
+#help_1,#help_2,#help_3{
+width: 310px;
+  margin: 10px;
+  height: 100px;
+  padding-top: 70px;
+  float: left;
+  text-align: center;
+  font-size: 25px;
+  text-shadow: 0px 1px 1px rgb(255, 255, 255);
+  font-weight: bold;
+  cursor:pointer;
+  color: rgb(0, 0, 0);
+  font-family: Arial;
+}
+#help_1:hover,#help_2:hover,#help_3:hover{
+    -webkit-transition: background-color 300ms linear;
+    -moz-transition: background-color 300ms linear;
+    -o-transition: background-color 300ms linear;
+    -ms-transition: background-color 300ms linear;
+    transition: background-color 300ms linear;
+	border-bottom: 3px solid rgb(255, 255, 255);
+	box-shadow: 0px 1px 1px rgb(160, 160, 160);
+}
+#help_1:hover{
+background-color: rgb(147, 203, 219);
+}
+#help_2:hover{
+background-color:rgb(97, 215, 143);
+}
+#help_3:hover{
+background-color: rgb(255, 204, 95);
+}
+#help_1{
+background-color: rgb(38, 154, 189);
+border-bottom: 3px solid rgb(0, 102, 132);
+}
+#help_2{
+ background-color: rgb(29, 165, 82);
+  border-bottom: 3px solid rgb(0, 124, 48);
+}
+#help_3{
+   background-color: rgb(255, 174, 0);
+  border-bottom: 3px solid rgb(169, 116, 1);
+}
+
+#links{
+width: 100%;
+  padding-bottom: 3px;
+  margin-top: 25px;
+  font-size: 13px;
+  color: gray;
+  font-family: Verdana;
+}
+
+
+
+
+
+
+
+
+
+

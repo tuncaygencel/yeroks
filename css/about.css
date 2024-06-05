@@ -1,0 +1,299 @@
+body{
+width:100%;
+height:auto;
+margin:0;
+padding:0;
+overflow-y:scroll;
+text-align: center;
+background-color:rgb(247, 247, 247);
+}
+#black_background{
+width:100%;
+height:100%;
+background-color:black;
+opacity: 0.7; 
+filter: alpha(opacity=70); 
+position:fixed;
+z-index:99997 ;
+}
+
+#light_box_area{
+    height: 100%;
+    width: 970px;
+    z-index: 99999;
+    position: fixed;
+    margin-top: 47px;
+    left: 50%;
+    margin-left: -485px;
+}
+#alerti{
+text-align:center;
+  position: fixed;
+  background-color: white;
+  width: 270px;
+  padding: 10px;
+  border-radius: 4px;
+  left: 50%;
+  top: 20%;
+  margin-left: -145px;
+}
+
+#alerti_text{
+font-size: 18px;
+  font-family: Arial;
+  color: rgb(42, 42, 42);
+}
+#alerti_okay{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  background-color: rgb(208, 208, 208);
+  width: 120px;
+  padding: 4px;
+  border-radius: 3px;
+  color: black;
+  font-family: Arial;
+  font-size: 19px;
+}
+#small_banner{
+width: 100%;
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+    z-index: 99999;
+    height: 35px;
+    box-shadow: 0px 1px 2px #b9b9b9;
+    position: fixed;
+    padding-top: 13px;
+}
+#banner_center{
+max-width: 1000px;
+min-width:300px;
+    height: auto;
+    margin: auto;
+    text-align: left;
+}
+#logo{
+float:left;
+display:inline-block;
+}
+#profile_infos{
+float:right;
+display:inline-block;
+}
+
+.user_banner{
+width: 180px;
+    height: auto;
+    float: right;
+    margin-top: 10px;
+}
+a{
+text-decoration:none;
+}
+#user_name{
+    float: left;
+    width: 150px;
+    display: inline-block;
+}
+#buttons{
+    position: relative;
+    width: 170px;
+    float: right;
+    background-color: white;
+    box-shadow: 0px 3px 4px #cacaca;
+    margin-right: -32px;
+    margin-top: 8px;
+    display: none;
+}
+#button{
+padding: 8px;
+    font-family: arial;
+    color: rgb(27, 98, 168);
+    font-size: 14px;
+    text-align: center;
+    font-weight: bold;
+    border-bottom: 1px solid #f0f0f0;
+    cursor: pointer;
+    width: 152px;
+    display: inline-block;
+    text-decoration: none;
+}
+#set_button {
+    float: right;
+    color: black;
+    font-size: 15px;
+    font-family: arial;
+    font-weight: bold;
+}
+#slide_down, #slide_down1 {
+background: url(../img_files/slide_down1.png);
+    background-size: 16px;
+    background-position: center;
+    height: 21px;
+    width: 18px;
+    background-repeat: no-repeat;
+    float: right;
+    margin-top: -2px;
+    margin-right: 5px;
+    cursor: pointer;
+    display: inline-block;
+}
+#login_link{
+    width: 102px;
+    float: right;
+    display: inline-block;
+    cursor: pointer;
+    border: 1px solid #efefef;
+    border-bottom: 1px solid #cacaca;
+    border-radius: 3px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: Arial;
+    color: #d00000;
+    padding: 4px;
+    background-color: #ffffff;
+}
+#image{
+    width: 100%;
+    height: 600px;
+    background-image: url(../img_files/about.png);
+    background-size: contain;
+}
+#description{
+    padding-top: 282px;
+}
+#description_text{
+    color: white;
+    font-size: 42px;
+    font-family: arial;
+    text-shadow: 1px 3px 14px rgb(0, 0, 0);
+    background-color: rgba(181, 181, 181, 0.56);
+    padding: 10px 20px;
+    display: inline-block;
+    border-radius: 7px;
+    background: linear-gradient(rgba(208, 208, 208, 0.86) , rgba(105, 105, 105, 0.63));
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.39);
+    border-bottom: 3px solid white;
+}
+
+#infos{
+width:100%;
+margin-top:30px;
+}
+#infos_c{
+    max-width: 1000px;
+    margin: auto;
+    display: inline-block;
+}
+#infos_text{
+    width: 50%;
+	float:left;
+	min-width: 300px;
+}
+
+#infos_users{
+width: 50%;
+float:right;
+min-width: 300px;
+}
+#user,#shop{
+    width: 170px;
+    height: auto;
+    display: inline-block;
+    background-color: white;
+    margin-left: 20px;
+    border: 1px solid #e8e8e8;
+}
+
+#user_img{
+background-image:url(../img_files/user.png);
+    background-size: contain;
+    width: 100px;
+    height: 110px;
+    margin: auto;
+    margin-top: 10px;
+    background-repeat: no-repeat;
+}
+#shop_img{
+background-image:url(../img_files/shopping1.png);
+    background-size: contain;
+    width: 100px;
+    height: 110px;
+    margin: auto;
+    margin-top: 10px;
+    background-repeat: no-repeat;
+}
+
+#shop_button,#user_button{
+    width: 150px;
+    margin: 5px auto 0px;
+    padding: 10px;
+    color: #000000;
+    font-family: arial;
+    font-size: 18px;
+    background-color: orange;
+    border-radius: 2px;
+    cursor: pointer;
+    border-bottom: 1px solid #a56a00;
+    box-shadow: 0px 1px 1px #b1b1b1;
+}
+
+#help_info_area{
+    max-width: 1000px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 15px;
+    font-family: Arial;
+    text-align: center;
+    color: rgb(160, 160, 160);
+    text-decoration: none;
+}
+p{
+text-indent: 50px;
+    color: #7b7b7b;
+    text-align: justify;
+    font-family: Arial;
+    font-size: 16px;
+    line-height: 1.35;
+}
+#mail{
+font-size: 15px;
+    font-family: arial;
+    margin-top: 36px;
+}
+
+#help_info_area a{
+    text-decoration: none;
+    color: rgb(27, 98, 168);
+    font-weight: bold;
+    font-size: 14px;
+    padding-left: 8px;
+    display: inline-block;
+    margin-left: 8px;
+    margin-top: 10px;
+    border-left: 1px solid #4462a8;
+}
+#help_info_area a:hover {
+color:rgb(0, 140, 255);
+text-decoration:underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

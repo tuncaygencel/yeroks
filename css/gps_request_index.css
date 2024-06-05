@@ -1,0 +1,118 @@
+body{
+margin:0;
+padding:0;
+background-color:rgb(97, 97, 97);
+}
+
+#small_banner{
+width:100%;
+height:50px;
+background-color:rgb(60,60,60);
+text-align:center;
+box-shadow: 0px 1px 3px rgb(13, 13, 13);
+border-bottom: 1px solid rgb(0, 0, 0);
+}
+#logo{
+width:100%;
+padding-top:10px;
+}
+#logo img{
+margin:0;
+}
+
+#main{
+  border: 1px solid rgb(113, 113, 113);
+  height: auto;
+  background-color: rgb(105, 105, 105);
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 8px;
+}
+#gps_pass{
+  width: 250px;
+  font-size: 24px;
+  font-family: arial;
+  padding: 4px;
+  border-left: none;
+  border-top: none;
+  border-right: none;
+  color: black;
+  border-bottom: 3px solid black;
+  margin-left: 23px;
+}
+#gps_text{
+  color: rgb(232, 232, 232);
+  font-size: 24px;
+  text-shadow: 0px 1px 2px rgb(0, 0, 0);
+  font-family: Arial;
+  text-align: center;
+}
+
+#gps_pass_submit{
+margin-left: 22px;
+  text-align: center;
+  background-color: rgb(97, 97, 97);
+  width: 250px;
+  border: 1px solid rgb(113, 113, 113);
+  padding-top: 4px;
+  box-shadow: 0px 1px black;
+  text-shadow: 0px 1px 1px black;
+  font-family: Arial;
+  color: rgb(255, 255, 255);
+  padding-bottom: 4px;
+  font-size: 21px;
+  cursor:pointer;
+}
+
+#gps_shop_name{
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-top: 20px;
+  background-color: dimgrey;
+  border: 1px solid rgb(113, 113, 113);
+  padding-top: 10px;
+  padding-bottom: 6px;
+  color: black;
+  text-shadow: 0px 1px 1px rgb(97, 97, 97);
+  font-size: 20px;
+  font-family: Arial;
+}
+
+#warning_gps{
+  margin: auto;
+  width: 300px;
+  margin-top: 20px;
+  background-color: rgb(240, 240, 222);
+  text-align: center;
+  padding: 5px;
+  font-size: 20px;
+  color: rgb(103, 0, 0);
+  font-family: Arial;
+  border: 1px solid rgb(89, 89, 89);
+}
+#gps_pass_result{
+width: 250px;
+margin-top: 7px;
+margin-left: auto;
+margin-right: auto;
+}
+#result_in{
+  text-align: center;
+  background-color: rgb(150, 150, 150);
+  padding: 5px;
+  font-size: 20px;
+  color: black;
+  font-family: Arial;
+}
+
+
+
+
+
+
+
+
+

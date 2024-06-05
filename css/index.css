@@ -1,0 +1,211 @@
+body{
+margin: 0;
+    padding: 0;
+    min-height: 400px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-color: rgb(230,230,230);
+}
+#main{
+    width: 290px;
+    display: block;
+    margin: auto;
+    padding: 10px;
+    background-color: #D0D0D0;
+    box-shadow: 0px 1px 1px #929292;
+    border-left: 1px solid #B7B7B7;
+	border-right: 1px solid #B7B7B7;
+	border-top: 1px solid #CCCCCC;
+    border-bottom: none;
+}
+#banner{
+width: 100%;
+    text-align: center;
+    padding-top: 30px;
+    background: none;
+    padding-bottom: 2px;
+    margin-bottom: 17px;
+    display: inline-block;
+}
+
+#logo_big{
+height:36px;
+text-decoration:none;
+}
+
+#userscontents{
+width: 100%;
+height: auto;
+display: block;
+}
+
+#email_input,#pass_input,#register_name_input,#register_pass_input,#register_mail_input,#forget_pass_input{
+    width: 100%;
+    background-color: white;
+    font-size: 17px;
+    float: right;
+    margin: 0;
+    -webkit-appearance: none;
+    -webkit-box-sizing: border-box;
+    margin-top: 3px;
+    display: block;
+    color: #000000;
+    text-shadow: 0px 1px 1px rgb(224, 224, 224);
+    box-shadow: 0px 1px 1px rgb(214, 214, 214) inset;
+    padding: 7px;
+    border: 1px solid #C5C5C5;
+    border-top: 1px solid #B9B9B9;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px 3px 3px 3px;
+}
+
+#login_button{
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 4px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px 3px 3px 3px;
+    cursor: pointer;
+	border:none;
+    color: rgb(255, 255, 255);
+    margin-top: 10px;
+    box-shadow: 0px 1px 1px rgb(221, 221, 221);
+    background-color: #EF3030;
+    background-image: -webkit-linear-gradient(rgb(255, 1, 1),rgb(230, 51, 51));
+    background-image: -moz-linear-gradient(rgb(255, 1, 1),rgb(230, 51, 51));
+    background-image: -ms-linear-gradient(rgb(255, 1, 1),rgb(230, 51, 51));
+    border-bottom: 2px solid #A50000;
+    text-align: center;
+    text-shadow: 0px 1px 1px #A50000;
+    font-size: 19px;
+    font-family: Arial;
+    color: #FFFFFF;
+}
+#login_result{
+    display: none;
+    width: 100%;
+    height: auto;
+    background-color: white;
+    font-size: 21px;
+    font-family: Arial;
+    color: rgb(10, 118, 183);
+    padding: 6px 0px 6px 0px;
+    margin-top: 10px;
+    text-align: center;
+}
+#bottom_area{
+    width: 135px;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 1px solid rgb(132, 132, 132);
+    padding: 4px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 20px;
+    text-align: center;
+    font-family: Arial;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    font-size: 17px;
+    color: rgb(0, 0, 0);
+    text-shadow: 1px 1px 2px rgb(250, 250, 250);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+#new_user_button,#new_user_button_1{
+    margin-left: auto;
+    margin-right: auto;
+    color: rgb(255, 255, 255);
+    border-bottom: 1px solid rgb(4, 157, 165);
+    background-color: #03C4CD;
+    text-align: center;
+    font-weight: bold;
+    text-shadow: 0px 1px 1px #03969E;
+    width: 100%;
+    font-family: Arial;
+	background-image: -webkit-linear-gradient(rgb(6, 212, 222),rgb(0, 180, 189));
+    background-image: -moz-linear-gradient(rgb(6, 212, 222),rgb(0, 180, 189));
+    background-image: -ms-linear-gradient(rgb(6, 212, 222),rgb(0, 180, 189));
+    display: inline-block;
+    margin-top: 20px;
+    box-shadow: 0px 1px 1px #A9A9A9;
+    padding: 7px 0px 7px 0px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    font-size: 19px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#register,#forget_pass{
+position: fixed;
+    width: 280px;
+    padding: 10px;
+    left: 50%;
+    top: 130%;
+    margin-left: -150px;
+    padding-bottom: 15px;
+    background-color: #D0D0D0;
+    box-shadow: 0px 1px 1px #929292;
+    border-left: 1px solid #B7B7B7;
+	border-right: 1px solid #B7B7B7;
+	border-top: 1px solid #CCCCCC;
+    border-bottom: none;
+    display: inline-block;
+}
+
+#register_content{
+width: 280px;
+}
+
+#register_button,#forget_button{
+    width: 100%;
+    padding: 5px;
+    background-color: white;
+    margin-top: 10px;
+    -webkit-appearance: none;
+    -webkit-box-sizing: border-box;
+    text-align: center;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    box-shadow: 0px 1px 1px #9E9E9E;
+    font-family: Arial;
+    display: inline-block;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    text-shadow: 1px 1px 2px rgb(250, 250, 250);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#register_result,#forget_result{
+    margin-top: 10px;
+    font-size: 18px;
+    text-align: center;
+    font-family: arial;
+    color: rgb(10, 118, 183);
+}
+#exit{
+float:right;
+height:32px;
+width:32px;
+cursor:pointer;
+}
+#exit img{
+float:right;
+}
+
+
+
+
+
+
+
+
+
